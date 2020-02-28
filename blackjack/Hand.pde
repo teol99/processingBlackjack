@@ -67,12 +67,7 @@ class Hand {
   }
   
   //Draw the hand value above the cards
-  void drawValue() {
-    pushStyle();
-    fill(40,170,0);
-    rect(x, y - cardHeight/3*2, valWidth, valHeight, valRadius, valRadius, valRadius, valRadius);
-    popStyle();
-    
+  void drawValue() {    
     pushStyle();
     textAlign(CENTER, CENTER);
     textSize(25);
